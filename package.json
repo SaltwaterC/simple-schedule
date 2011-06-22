@@ -1,0 +1,4 @@
+{
+	"name": "simple-schedule",
+	"main": "./lib/simple-schedule.js"
+}
