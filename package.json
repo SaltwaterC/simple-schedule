@@ -1,4 +1,6 @@
 {
 	"name": "simple-schedule",
-	"main": "./lib/simple-schedule.js"
+	"version": "0.1",
+	"main": "./lib/simple-schedule.js",
+	"description": "Simple scheduler for running batch tasks on node.js"
 }
