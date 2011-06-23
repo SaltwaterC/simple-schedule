@@ -2,6 +2,12 @@
 
 Simple scheduler for node.js. I wrote this as I have to process several thounsand batch jobs sitting between three different network services. I had not to send too many tasks to a certain service due to various reasons, while if there was a temporary downtime / error, the task needed to be rescheduled. The simple-schedule module is the result of this challenge.
 
+## Installation
+
+Either manually clone this repository into your node_modules directory, or the recommended method:
+
+> npm install simple-schedule
+
 ## Usage mode
 <pre>
 var schedule = require('simple-schedule');
