@@ -9,7 +9,8 @@ Either manually clone this repository into your node_modules directory, or the r
 > npm install simple-schedule
 
 ## Usage mode
-<pre>
+
+```javascript
 var schedule = require('simple-schedule');
 
 schedule.add('log'); // Declare a new scheduler
@@ -31,7 +32,7 @@ catch (e) {
 	// Throws an error if the scheduler name is invalid
 	console.error(e.message);
 }
-</pre>
+```
 
 ## Reference
 
