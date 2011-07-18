@@ -1,11 +1,19 @@
 {
 	"name": "simple-schedule",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"main": "./lib/simple-schedule.js",
 	"description": "Simple scheduler for running batch tasks on node.js",
+	"engines": {
+		"node": "*"
+	},
 	"homepage": "https://github.com/SaltwaterC/simple-schedule",
 	"author": {
 		"name": "Stefan Rusu",
 		"url": "http://www.saltwaterc.eu/"
-	}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/SaltwaterC/simple-schedule.git"
+	},
+	"keywords": ["simple", "scheduler", "batch", "tasks"]
 }
