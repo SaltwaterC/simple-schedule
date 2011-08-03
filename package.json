@@ -1,6 +1,6 @@
 {
 	"name": "simple-schedule",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"main": "./lib/simple-schedule.js",
 	"description": "Simple scheduler for running batch tasks on node.js",
 	"engines": {
